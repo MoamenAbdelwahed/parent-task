@@ -29,7 +29,9 @@ operations on them to get the result.
 - data json files
 `Application/Src/storage/json`
 
-- Hints:
--- services and repositories are placed into Domain folder to separate the domain logic from the application logic (controllers)
--- Infrastructure folder is dummy folder to use in case of using databases and ORMs
--- Interfaces for Repositories and Services in `Domain/Contracts`
+# Hints:
+
+
+- services and repositories are placed into Domain folder to separate the domain logic from the application logic (controllers)
+- Infrastructure folder is dummy folder to use in case of using databases and ORMs
+- Interfaces for Repositories and Services in `Domain/Contracts`
